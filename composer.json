@@ -21,6 +21,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "paypal/adaptivepayments-sdk-php": "*"
+        "paypal/adaptiveaccounts-sdk-php":"3.9.*"
     },
     "autoload": {
         "psr-4": {
