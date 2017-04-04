@@ -1,0 +1,30 @@
+{
+    "name": "alkurn/yii2-adaptive",
+    "description": "The PayPal Adaptive extension for the Yii2 framework",
+    "keywords": ["yii2", "adaptive"],
+    "type": "yii2-extension",   
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/alkurn/yii2-adaptive/issue",
+        "source": "https://github.com/alkurn/yii2-adaptive"
+    },
+    "authors": [
+        {
+            "name": "Ganesh",
+            "email": "ganesh.alkurn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "paypal/adaptivepayments-sdk-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "alkurn\\adaptive\\": ""
+        }
+    }
+}
